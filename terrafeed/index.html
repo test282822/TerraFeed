@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Primary SEO -->
+    <title>terrafeed — Live Global Food Security Tracker, Price Signals & Local Growing Advisor</title>
+    <meta name="description" content="Free live map of global food security news, food price inflation indicators from the World Bank and FRED, and climate-zone growing guidance for local food stability. Open data, no accounts, no ads." />
+    <meta name="keywords" content="food security tracker, global food prices, food inflation map, live food data, food price monitoring, crop advisor, climate zone crops, food supply chain news, GDELT food security, local food stability" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Hansen Enterprises LLC" />
+    <link rel="canonical" href="https://terrafeed.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="terrafeed" />
+    <meta property="og:title" content="terrafeed — The World's Food System, As a Live Signal" />
+    <meta property="og:description" content="Live global food-security news map, price pressure indicators, and local growing guidance. Built on open data from GDELT, World Bank, FRED, and Open-Meteo." />
+    <meta property="og:url" content="https://terrafeed.app/" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="terrafeed — Live Global Food Security Tracker" />
+    <meta name="twitter:description" content="Where food security is making news right now, the price pressure behind it, and what grows where you are. Free and open." />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "terrafeed",
+      "url": "https://terrafeed.app/",
+      "description": "Live global food security tracker: worldwide news signal map, food price inflation indicators, and climate-zone growing guidance for local food stability.",
+      "applicationCategory": "Data Visualization",
+      "operatingSystem": "Web",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "creator": { "@type": "Organization", "name": "Hansen Enterprises LLC" },
+      "isBasedOn": [
+        { "@type": "Dataset", "name": "GDELT Project", "url": "https://www.gdeltproject.org/" },
+        { "@type": "Dataset", "name": "World Bank Open Data", "url": "https://data.worldbank.org/" },
+        { "@type": "Dataset", "name": "FRED Economic Data", "url": "https://fred.stlouisfed.org/" },
+        { "@type": "Dataset", "name": "Open-Meteo", "url": "https://open-meteo.com/" }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

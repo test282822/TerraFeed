@@ -1,0 +1,24 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #060A0F;
+  --bg-raise: #0B121A;
+  --bg-card: #0E1621;
+  --line: #1A2532;
+  --line-bright: #263547;
+  --text: #DCE6F0;
+  --text-dim: #7D8FA3;
+  --text-faint: #45566B;
+  --green: #2FBF71;
+  --amber: #E8B33D;
+  --red: #E05252;
+  --blue: #4A9EDE;
+  --mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  --sans: 'Inter', -apple-system, sans-serif;
+}
+html { background: var(--bg); }
+body { background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--line-bright); border-radius: 4px; }
+a { color: inherit; }
+button { font-family: inherit; }
